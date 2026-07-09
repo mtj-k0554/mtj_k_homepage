@@ -1916,20 +1916,19 @@ text-align:center;
 
 }
 
-/* ===================================
-        MOBILE
-=================================== */
-
-@media (max-width:768px){
-
 .container{
-    width:94%;
+    width:92%;
 }
 
-/* HEADER */
+section{
+    padding:60px 0;
+}
+
+/* ================= HEADER ================= */
 
 header .container{
     flex-direction:column;
+    justify-content:center;
     align-items:center;
     height:auto;
     padding:15px 0;
@@ -1937,298 +1936,279 @@ header .container{
 
 .logo{
     flex-direction:column;
+    align-items:center;
     text-align:center;
 }
 
 .logo img{
-    width:65px;
-    height:65px;
+    width:70px;
+    height:70px;
+}
+
+.logo-text{
+    margin-top:10px;
 }
 
 .logo-text h2{
-    font-size:22px;
+    font-size:20px;
+    line-height:1.3;
 }
 
 .logo-text p{
-    font-size:13px;
+    font-size:14px;
 }
 
 .menu{
     margin-top:20px;
-    justify-content:center;
+    display:flex;
     flex-wrap:wrap;
+    justify-content:center;
     gap:18px;
+}
+
+.menu a{
     font-size:17px;
 }
 
-
-/* HERO */
+/* ================= HERO ================= */
 
 .hero{
-    display:block;
-    padding:180px 0 50px;
+    display:flex;
+    flex-direction:column;
+    padding:40px 0 60px;
     min-height:auto;
 }
 
 .hero-container{
+    order:2;
     text-align:center;
 }
 
+.hero-image{
+    order:1;
+
+    position:relative;
+    width:100%;
+    height:180px;
+
+    top:auto;
+    right:auto;
+
+    margin-bottom:30px;
+}
+
+.hero-image img{
+    object-fit:cover;
+}
+
+.hero-license-wrap{
+
+    position:absolute;
+
+    bottom:10px;
+    right:10px;
+
+    display:flex;
+    gap:10px;
+}
+
+.hero-license{
+
+    width:90px;
+}
+
 .hero-top{
-    font-size:18px;
+    font-size:16px;
 }
 
 .hero h1{
-    font-size:30px;
-    line-height:1.3;
+    font-size:32px;
+    line-height:1.25;
 }
 
-.hero h1 span{
-    font-size:30px;
-}
-            
 .hero-desc{
-    font-size:18px;
+    font-size:17px;
     line-height:1.8;
 }
 
 .hero-btn{
-
+    display:flex;
     flex-direction:column;
-
     align-items:center;
-
+    gap:15px;
 }
 
 .hero-btn a{
-
     width:240px;
-
 }
 
 .btn-outline{
     margin-left:0;
 }
 
-/* 메인 배경사진 */
-
-.hero-image{
-
-    position:relative;
-
-    width:100%;
-
-    height:180px;
-
-    margin-top:40px;
-
-}
-
-/* 자격증 */
-
-.hero-license-wrap{
-
-    position:relative;
-
-    top:auto;
-
-    right:auto;
-
-    margin-top:30px;
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:15px;
-
-}
-
-.hero-license{
-
-    width:120px;
-
-}
-
-
-
-/* WHY */
+/* ================= WHY ================= */
 
 .why-row{
-
     flex-direction:column;
-
 }
 
 .why-item{
-
     border-right:none;
-
     border-bottom:1px solid rgba(255,255,255,.15);
-
-    padding:30px 20px;
-
+    padding:35px 20px;
 }
 
-
-/* ABOUT */
+/* ================= ABOUT ================= */
 
 .about-container{
-
     grid-template-columns:1fr;
+    gap:35px;
+}
 
-    gap:40px;
+.about h2{
+    font-size:42px;
+}
 
+.about p{
+    font-size:18px;
+    line-height:1.8;
 }
 
 .career-header{
-
     flex-direction:column;
-
-    align-items:center;
-
     text-align:center;
-
 }
 
 .career-profile{
-
+    width:140px;
     margin-top:20px;
-
 }
 
+.about-career{
+    padding:35px 25px;
+}
 
-/* SERVICE */
+/* ================= SERVICE ================= */
+
+.section-title{
+    margin-bottom:45px;
+}
 
 .service-grid{
-
     grid-template-columns:1fr;
-
+    gap:20px;
 }
 
 .service-card{
-
+    padding:35px 25px;
     text-align:center;
-
 }
 
 .service-card i{
-
     margin:0 auto 20px;
-
 }
 
 .service-card h3{
-
-    font-size:24px;
-
+    font-size:25px;
 }
-            
-/* 장점 */
+
+.service-card p{
+    font-size:17px;
+    line-height:1.7;
+}
+
+/* ================= ADVANTAGE ================= */
 
 .advantage-grid{
-
     grid-template-columns:1fr;
-
 }
 
-
-/* PROCESS */
+/* ================= PROCESS ================= */
 
 .process-wrap{
-
     flex-direction:column;
+}
 
+.process-card{
+    width:100%;
 }
 
 .arrow{
-
     transform:rotate(90deg);
-
+    margin:15px 0;
     padding:0;
-
 }
 
-
-/* LOCATION */
+/* ================= LOCATION ================= */
 
 .location-wrap{
-
     grid-template-columns:1fr;
+}
 
+.map-box{
+    height:300px;
 }
 
 .location-info{
-
     text-align:center;
-
 }
 
-
-/* CONTACT */
+/* ================= CONTACT ================= */
 
 .contact-btn{
-
     flex-direction:column;
-
-    align-items:center;
-
+    gap:15px;
 }
 
+.contact-btn a{
+    width:240px;
+}
 
-/* FOOTER */
+/* ================= FOOTER ================= */
 
 .footer-container{
-
     grid-template-columns:1fr;
-
+    gap:40px;
     text-align:center;
-
 }
 
 .footer-brand{
-
     flex-direction:column;
+    align-items:center;
+}
 
-    justify-content:center;
-
+.footer-logo{
+    width:100px;
 }
 
 .footer-text h3{
-
     font-size:24px;
-
 }
 
+.footer-text p{
+    font-size:15px;
+}
 
-/* FLOATING */
+/* ================= FLOATING ================= */
 
 .floating-menu{
-
     left:12px;
-
     bottom:20px;
-
+    gap:12px;
 }
 
 .floating-btn{
-
     width:58px;
-
     height:58px;
-
 }
 
 .floating-btn i{
-
     font-size:20px;
-
 }
 
 .floating-btn span{
-
     font-size:9px;
-
+    line-height:1.2;
 }
 
 }
