@@ -1915,3 +1915,115 @@ text-align:center;
     background:#03C75A;
 
 }
+
+
+/* ==========================
+      MOBILE
+========================== */
+
+@media screen and (max-width: 768px){
+
+    .container{
+        width:95%;
+    }
+
+    /* 헤더 */
+    .navbar{
+        flex-direction:column;
+        padding:15px 0;
+    }
+
+    .logo{
+        width:70px;
+    }
+
+    .logo-text h1{
+        font-size:26px;
+    }
+
+    .logo-text p{
+        font-size:14px;
+    }
+
+    nav ul{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:18px;
+        margin-top:20px;
+    }
+
+    /* 메인 */
+    .hero{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-text{
+        width:100%;
+    }
+
+    .hero-text h1{
+        font-size:46px;
+        line-height:1.2;
+    }
+
+    .hero-text p{
+        font-size:22px;
+    }
+
+    .hero-image{
+        width:100%;
+        margin-top:30px;
+    }
+
+    .hero-image img{
+        width:100%;
+        height:auto;
+    }
+
+    /* 버튼 */
+
+    .hero-buttons{
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    /* 서비스 */
+
+    .service-grid{
+        grid-template-columns:1fr;
+    }
+
+    /* About */
+
+    .about-wrap{
+        flex-direction:column;
+    }
+
+    /* 푸터 */
+
+    .footer-container{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .footer-brand{
+        justify-content:center;
+    }
+
+    /* 플로팅 버튼 */
+
+    .floating-btn{
+        width:70px;
+        height:70px;
+    }
+
+    .floating-btn i{
+        font-size:22px;
+    }
+
+    .floating-btn span{
+        font-size:10px;
+    }
+
+}
