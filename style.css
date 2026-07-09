@@ -1916,114 +1916,289 @@ text-align:center;
 
 }
 
+/* ===================================
+        MOBILE
+=================================== */
 
-/* ==========================
-      MOBILE
-========================== */
+@media (max-width:768px){
 
-@media screen and (max-width: 768px){
+.container{
+    width:94%;
+}
 
-    .container{
-        width:95%;
-    }
+/* HEADER */
 
-    /* 헤더 */
-    .navbar{
-        flex-direction:column;
-        padding:15px 0;
-    }
+header .container{
+    flex-direction:column;
+    align-items:center;
+    height:auto;
+    padding:15px 0;
+}
 
-    .logo{
-        width:70px;
-    }
+.logo{
+    flex-direction:column;
+    text-align:center;
+}
 
-    .logo-text h1{
-        font-size:26px;
-    }
+.logo img{
+    width:65px;
+    height:65px;
+}
 
-    .logo-text p{
-        font-size:14px;
-    }
+.logo-text h2{
+    font-size:22px;
+}
 
-    nav ul{
-        flex-wrap:wrap;
-        justify-content:center;
-        gap:18px;
-        margin-top:20px;
-    }
+.logo-text p{
+    font-size:13px;
+}
 
-    /* 메인 */
-    .hero{
-        flex-direction:column;
-        text-align:center;
-    }
+.menu{
+    margin-top:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:18px;
+    font-size:17px;
+}
 
-    .hero-text{
-        width:100%;
-    }
 
-    .hero-text h1{
-        font-size:46px;
-        line-height:1.2;
-    }
+/* HERO */
 
-    .hero-text p{
-        font-size:22px;
-    }
+.hero{
+    display:block;
+    padding:180px 0 50px;
+    min-height:auto;
+}
 
-    .hero-image{
-        width:100%;
-        margin-top:30px;
-    }
+.hero-container{
+    text-align:center;
+}
 
-    .hero-image img{
-        width:100%;
-        height:auto;
-    }
+.hero-top{
+    font-size:18px;
+}
 
-    /* 버튼 */
+.hero h1{
+    font-size:38px;
+    line-height:1.3;
+}
 
-    .hero-buttons{
-        justify-content:center;
-        flex-wrap:wrap;
-    }
+.hero-desc{
+    font-size:18px;
+    line-height:1.8;
+}
 
-    /* 서비스 */
+.hero-btn{
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
 
-    .service-grid{
-        grid-template-columns:1fr;
-    }
+.btn-outline{
+    margin-left:0;
+}
 
-    /* About */
+/* 메인 배경사진 */
 
-    .about-wrap{
-        flex-direction:column;
-    }
+.hero-image{
 
-    /* 푸터 */
+    position:relative;
 
-    .footer-container{
-        grid-template-columns:1fr;
-        text-align:center;
-    }
+    width:100%;
 
-    .footer-brand{
-        justify-content:center;
-    }
+    height:260px;
 
-    /* 플로팅 버튼 */
+    margin-top:40px;
 
-    .floating-btn{
-        width:70px;
-        height:70px;
-    }
+}
 
-    .floating-btn i{
-        font-size:22px;
-    }
+/* 자격증 */
 
-    .floating-btn span{
-        font-size:10px;
-    }
+.hero-license-wrap{
+
+    position:relative;
+
+    top:auto;
+
+    right:auto;
+
+    margin-top:30px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+.hero-license{
+
+    width:120px;
+
+}
+
+
+/* WHY */
+
+.why-row{
+
+    flex-direction:column;
+
+}
+
+.why-item{
+
+    border-right:none;
+
+    border-bottom:1px solid rgba(255,255,255,.15);
+
+    padding:30px 20px;
+
+}
+
+
+/* ABOUT */
+
+.about-container{
+
+    grid-template-columns:1fr;
+
+    gap:40px;
+
+}
+
+.career-header{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    text-align:center;
+
+}
+
+.career-profile{
+
+    margin-top:20px;
+
+}
+
+
+/* SERVICE */
+
+.service-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/* 장점 */
+
+.advantage-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+
+/* PROCESS */
+
+.process-wrap{
+
+    flex-direction:column;
+
+}
+
+.arrow{
+
+    transform:rotate(90deg);
+
+    padding:0;
+
+}
+
+
+/* LOCATION */
+
+.location-wrap{
+
+    grid-template-columns:1fr;
+
+}
+
+.location-info{
+
+    text-align:center;
+
+}
+
+
+/* CONTACT */
+
+.contact-btn{
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+
+/* FOOTER */
+
+.footer-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+}
+
+.footer-brand{
+
+    flex-direction:column;
+
+    justify-content:center;
+
+}
+
+.footer-text h3{
+
+    font-size:24px;
+
+}
+
+
+/* FLOATING */
+
+.floating-menu{
+
+    left:12px;
+
+    bottom:20px;
+
+}
+
+.floating-btn{
+
+    width:65px;
+
+    height:65px;
+
+}
+
+.floating-btn i{
+
+    font-size:20px;
+
+}
+
+.floating-btn span{
+
+    font-size:10px;
+
+}
 
 }
