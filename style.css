@@ -2220,26 +2220,21 @@ section{
 
 /* ================= FLOATING ================= */
 
-.floating-menu{
-    left:10px;
-    bottom:18px;
-    gap:10px;
-}
 
 .floating-btn{
-    width:50px;
-    height:50px;
-    font-size:8px;
-    border-radius:50%;
+    width:40px !important;
+    height:40px !important;
 }
 
 .floating-btn i{
-    font-size:18px;
-    margin-bottom:3px;
+    font-size:14px !important;
 }
 
 .floating-btn span{
-    font-size:7px;
-    line-height:1.1;
+    font-size:6px !important;
+}
+
+.floating-menu{
+    left:8px !important;
 }
 }
