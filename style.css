@@ -1818,7 +1818,122 @@ header .container{
     padding:0 18px;
 
 }
+/* ================= HERO ================= */
 
+.hero{
+
+    display:flex;
+    flex-direction:column;
+
+    padding:20px 0 45px;
+
+    min-height:auto;
+
+}
+
+.hero-image{
+
+    position:relative;
+
+    width:100%;
+
+    height:330px;
+
+    background-size:cover;
+
+    background-position:center;
+
+    background-repeat:no-repeat;
+
+}
+
+.hero-image::after{
+
+    display:none;
+
+}
+
+.hero-license-wrap{
+
+    position:absolute;
+
+    right:12px;
+
+    bottom:12px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:10px;
+
+    z-index:20;
+
+}
+
+.hero-license{
+
+    width:78px;
+
+    background:#fff;
+
+    padding:3px;
+
+    border-radius:4px;
+
+}
+
+.hero-container{
+
+    position:relative;
+
+    margin-top:25px;
+
+    text-align:center;
+
+    z-index:5;
+
+}
+
+.hero-top{
+
+    font-size:17px;
+
+}
+
+.hero h1{
+
+    font-size:34px;
+
+    line-height:1.25;
+
+}
+
+.hero-desc{
+
+    font-size:17px;
+
+    line-height:1.8;
+
+}
+
+.hero-btn{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    align-items:center;
+
+}
+
+.hero-btn a{
+
+    width:240px;
+
+}
 .logo{
 
     display:flex;
@@ -1971,7 +2086,41 @@ text-align:center;
 
 }
 
+/* ================= FLOATING ================= */
 
+.floating-menu{
+
+    left:10px;
+
+    bottom:20px;
+
+    gap:10px;
+
+}
+
+.floating-btn{
+
+    width:46px;
+
+    height:46px;
+
+}
+
+.floating-btn i{
+
+    font-size:16px;
+
+    margin-bottom:2px;
+
+}
+
+.floating-btn span{
+
+    font-size:7px;
+
+    line-height:1.1;
+
+}
 
 /* ===================================
         SMALL MOBILE (~480px)
@@ -1990,91 +2139,6 @@ section{
 }
 
 /* ================= HEADER ================= */
-
-/* ================= HERO ================= */
-
-.hero{
-    display:flex;
-    flex-direction:column;
-    padding: 15px 0 50px;
-    min-height:auto;
-}
-
-.hero-container{
-    order : 2;
-    text-align:center;
-    margin-top:25px;
-}
-
-.hero-image{
-    position:relative;
-    width:100%;
-    height:420px;
-
-    background-size : cover;
-    background-position:center;
-    background-repeat : no-repeat;
-            
-    margin:0;
-}
-
-
-.hero-license-wrap{
-
-    display:flex;
-
-    justify-content:center;
-
-    gap:15px;
-
-    margin-top:20px;
-
-    position:static;
-
-}
-
-.hero-license{
-
-    padding:3px;
-
-    background:white;
-
-    border-radius:6px;
-
-    box-shadow:0 6px 18px rgba(0,0,0,.25);
-
-}
-
-.hero-top{
-    font-size:18px;
-}
-
-.hero h1{
-    font-size:34px;
-    line-height:1.25;
-}
-
-.hero-desc{
-    font-size:17px;
-    line-height:1.8;
-}
-
-.hero-btn{
-    display:flex;
-    flex-direction:column;
-
-    gap:15px;
-
-    align-items:center;
-}
-
-.hero-btn a{
-    width:240px;
-}
-
-.btn-outline{
-    margin-left:0;
-}
 
 /* ================= WHY ================= */
 
@@ -2223,21 +2287,5 @@ section{
     left:20px;
     bottom:18px;
     gap:10px;
-}
-
-.floating-btn{
-    width:36px;
-    height:36px;
-    border-radius:50%;
-}
-
-.floating-btn i{
-    font-size:21px;
-    margin-bottom:5px;
-}
-
-.floating-btn span{
-    font-size:10px;
-    line-height:1.1;
 }
 }
