@@ -2019,15 +2019,16 @@ section{
 
 .hero-license-wrap{
 
-    position:absolute;
-
-    top:5px;
-    right:5px;
-
     display:flex;
-    flex-direction:column;
-    gap:7px;
-    z-index:20;
+
+    justify-content:center;
+
+    gap:15px;
+
+    margin-top:20px;
+
+    position:static;
+
 }
 
 .hero-license{
