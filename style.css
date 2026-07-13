@@ -231,11 +231,27 @@ header .container{
     font-size:16px;
 
 }
+.nav{
 
-.menu-toggle{
-    display:none;
+    position:relative;
+
 }
 
+.menu-toggle{
+
+    display:none;
+
+    background:none;
+
+    border:none;
+
+    color:white;
+
+    font-size:30px;
+
+    cursor:pointer;
+
+}
 .menu a{
 
     color:white;
@@ -1778,66 +1794,63 @@ padding:0;
         MOBILE (~768px)
 =================================== */
 
-@media (max-width:768px){
+/* =========================
+        HEADER
+========================= */
 
 header{
 
-position:sticky;
-
-}
-
-.hero{
-
-padding-top:40px;
-
-}
-
-section{
-
-padding:80px 0;
+    position:sticky;
 
 }
 
 header .container{
-    flex-direction:row;
+
+    display:flex;
 
     justify-content:space-between;
 
     align-items:center;
 
-    padding:15px 20px;
+    height:75px;
+
+    padding:0 18px;
 
 }
 
-            
 .logo{
+
+    display:flex;
 
     flex-direction:row;
 
-    text-align:left;
+    align-items:center;
+
+    gap:10px;
 
 }
 
 .logo img{
 
-    width:55px;
-    height:55px;
+    width:52px;
+
+    height:52px;
 
 }
 
-   .logo-text h2{
+.logo-text h2{
 
-    font-size:18px;
+    font-size:19px;
 
 }
 
 .logo-text p{
 
-    font-size:12px;
+    font-size:11px;
 
 }
 
-/* 햄버거 버튼 */
+/* 햄버거 */
 
 .menu-toggle{
 
@@ -1849,7 +1862,7 @@ header .container{
 
     position:absolute;
 
-    top:100%;
+    top:75px;
 
     left:0;
 
@@ -1861,13 +1874,11 @@ header .container{
 
     flex-direction:column;
 
-    gap:0;
-
     padding:15px 0;
 
-}
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
 
-/* 메뉴 열렸을 때 */
+}
 
 .menu.active{
 
@@ -1877,7 +1888,7 @@ header .container{
 
 .menu li{
 
-    text-align:center;
+    width:100%;
 
 }
 
@@ -1885,14 +1896,22 @@ header .container{
 
     display:block;
 
-    padding:15px;
-
-    font-size:18px;
+    text-align:center;
 
     color:white;
 
+    padding:15px;
+
+    font-size:17px;
+
 }
-            
+
+.menu a:hover{
+
+    background:#1E3A8A;
+
+}
+
 .hero h1{
 
 font-size:42px;
@@ -1970,65 +1989,6 @@ section{
 
 /* ================= HEADER ================= */
 
-header .container{
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    padding:10px 0;
-}
-
-.logo{
-    flex-direction:column;
-    align-items:center;
-    text-align:center;
-}
-
-.logo img{
-    width:54px;
-    height:55px;
-}
-
-.logo-text{
-    margin-top:6px;
-}
-
-.logo-text h2{
-    font-size:18px;
-    margin-bottom:3px;
-}
-
-.logo-text p{
-    font-size:12px;
-}
-
-.menu{
-    margin-top:20px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    gap:18px;
-}
-
-.menu a{
-    font-size:16px;
-}
-
-.menu-toggle{
-
-    display:none;
-
-    background:none;
-
-    border:none;
-
-    color:white;
-
-    font-size:30px;
-
-    cursor:pointer;
-
-}
 /* ================= HERO ================= */
 
 .hero{
