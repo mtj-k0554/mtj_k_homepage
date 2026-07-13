@@ -7,9 +7,9 @@ menuBtn.addEventListener("click", () => {
 
 });
 
-document.querySelectorAll(".menu a").forEach(link=>{
+document.querySelectorAll(".menu a").forEach(item=>{
 
-    link.addEventListener("click",()=>{
+    item.addEventListener("click",()=>{
 
         menu.classList.remove("active");
 
