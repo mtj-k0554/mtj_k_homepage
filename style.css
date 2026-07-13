@@ -1972,6 +1972,28 @@ text-align:center;
 }
 
 
+.floating-menu{
+    left:10px;
+    bottom:18px;
+    gap:10px;
+}
+
+.floating-btn{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+}
+
+.floating-btn i{
+    font-size:17px;
+    margin-bottom:2px;
+}
+
+.floating-btn span{
+    font-size:7px;
+    line-height:1.1;
+}
+
 /* ===================================
         SMALL MOBILE (~480px)
         (원래 미디어쿼리 없이 전역에 새어나가던 블록을
@@ -2218,28 +2240,4 @@ section{
     font-size:15px;
 }
 
-/* ================= FLOATING ================= */
-
-.floating-menu{
-    left:10px !important;
-    bottom:18px !important;
-    gap:10px !important;
-}
-
-.floating-btn{
-    width:46px !important;
-    height:46px !important;
-
-    border-radius:50%;
-}
-
-.floating-btn i{
-    font-size:16px !important;
-    margin-bottom:2px;
-}
-
-.floating-btn span{
-    font-size:7px !important;
-    line-height:1.1;
-}
 }
