@@ -2226,13 +2226,13 @@ section{
 }
 
 .floating-btn{
-    width:56px;
-    height:56px;
+    width:36px;
+    height:36px;
     border-radius:50%;
 }
 
 .floating-btn i{
-    font-size:27px;
+    font-size:21px;
     margin-bottom:5px;
 }
 
