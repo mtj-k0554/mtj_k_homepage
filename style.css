@@ -2216,7 +2216,7 @@ section{
 }
 
 .footer-text p{
-    font-size:15px;
+    font-size:12px;
 }
 
             .floating-menu{
@@ -2226,18 +2226,18 @@ section{
 }
 
 .floating-btn{
-    width:76px;
-    height:76px;
+    width:56px;
+    height:56px;
     border-radius:50%;
 }
 
 .floating-btn i{
-    font-size:37px;
+    font-size:27px;
     margin-bottom:5px;
 }
 
 .floating-btn span{
-    font-size:12px;
+    font-size:10px;
     line-height:1.1;
 }
 }
