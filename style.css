@@ -1972,27 +1972,6 @@ text-align:center;
 }
 
 
-.floating-menu{
-    left:20px;
-    bottom:18px;
-    gap:10px;
-}
-
-.floating-btn{
-    width:76px;
-    height:76px;
-    border-radius:50%;
-}
-
-.floating-btn i{
-    font-size:37px;
-    margin-bottom:5px;
-}
-
-.floating-btn span{
-    font-size:12px;
-    line-height:1.1;
-}
 
 /* ===================================
         SMALL MOBILE (~480px)
@@ -2240,4 +2219,25 @@ section{
     font-size:15px;
 }
 
+            .floating-menu{
+    left:20px;
+    bottom:18px;
+    gap:10px;
+}
+
+.floating-btn{
+    width:76px;
+    height:76px;
+    border-radius:50%;
+}
+
+.floating-btn i{
+    font-size:37px;
+    margin-bottom:5px;
+}
+
+.floating-btn span{
+    font-size:12px;
+    line-height:1.1;
+}
 }
