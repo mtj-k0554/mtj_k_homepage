@@ -1981,7 +1981,7 @@ header .container{
 
 .hero-license{
 
-    width:5px;
+    border:10px solid red;
 }
 
 .hero-top{
