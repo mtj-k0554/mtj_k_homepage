@@ -2100,15 +2100,15 @@ text-align:center;
 
 .floating-btn{
 
-    width:46px;
+    width:56px;
 
-    height:46px;
+    height:56px;
 
 }
 
 .floating-btn i{
 
-    font-size:16px;
+    font-size:18px;
 
     margin-bottom:2px;
 
@@ -2116,7 +2116,7 @@ text-align:center;
 
 .floating-btn span{
 
-    font-size:7px;
+    font-size:10px;
 
     line-height:1.1;
 
