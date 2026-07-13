@@ -1776,6 +1776,18 @@ padding:0;
 
 @media (max-width:768px){
 
+header{
+
+position:sticky;
+
+}
+
+.hero{
+
+padding-top:40px;
+
+}
+
 section{
 
 padding:80px 0;
@@ -1801,12 +1813,6 @@ flex-wrap:wrap;
 justify-content:center;
 
 gap:20px;
-
-}
-
-.hero{
-
-padding-top:220px;
 
 }
 
