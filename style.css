@@ -1971,7 +1971,7 @@ header .container{
 
     position:absolute;
 
-    top:20px;
+    top:5px;
     right:15px;
 
     display:flex;
@@ -1981,7 +1981,7 @@ header .container{
 
 .hero-license{
 
-    width:25px;
+    width:5px;
 }
 
 .hero-top{
