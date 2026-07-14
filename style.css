@@ -1825,7 +1825,7 @@ header .container{
     display:flex;
     flex-direction:column;
 
-    padding:20px 0 45px;
+    padding:0 0 45px;
 
     min-height:auto;
 
@@ -1837,8 +1837,8 @@ header .container{
 
     width:100%;
 
-    height:330px;
-
+    height:370px;
+background-image:url("images/main3.jpg");
     background-size:cover;
 
     background-position:center;
@@ -1859,7 +1859,7 @@ header .container{
 
     right:12px;
 
-    bottom:12px;
+    top:18px;
 
     display:flex;
 
@@ -1867,31 +1867,30 @@ header .container{
 
     gap:10px;
 
-    z-index:20;
+    z-index:50;
 
 }
 
 .hero-license{
 
-    width:78px;
+    width:82px;
 
-    background:#fff;
+    background:#white;
 
     padding:3px;
 
-    border-radius:4px;
+    border-radius:5px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
 
 }
 
 .hero-container{
 
-    position:relative;
-
     margin-top:25px;
 
     text-align:center;
 
-    z-index:5;
 
 }
 
@@ -2070,13 +2069,6 @@ grid-template-columns:1fr;
 
 }
 
-.hero-image img{
-
-width:320px;
-
-height:420px;
-
-}
 
 .location-info{
 
@@ -2100,25 +2092,21 @@ text-align:center;
 
 .floating-btn{
 
-    width:56px;
+    width:46px;
 
-    height:56px;
+    height:46px;
 
 }
 
 .floating-btn i{
 
-    font-size:18px;
-
-    margin-bottom:2px;
+    font-size:16px;
 
 }
 
 .floating-btn span{
 
-    font-size:10px;
-
-    line-height:1.1;
+    font-size:7px;
 
 }
 
