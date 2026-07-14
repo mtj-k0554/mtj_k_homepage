@@ -2074,58 +2074,6 @@ grid-template-columns:1fr;
 
 }
 
-
-/* ================= PROCESS ================= */
-
-.process-wrap{
-    display : flex;
-    flex-direction:column;
-    align-items:center;
-    gap:10px;
-}
-
-.process-item{
-
-    width:90%;
-    max-width : 320px;
-    padding:22px 18px;     /* 기존보다 줄임 */
-
-    border-radius:20px;
-
-}
-
-.number{
-
-    width:60px;
-    height:60px;
-
-    font-size:34px;
-
-    margin-bottom:14px;
-}
-
-.process-item h3{
-
-    font-size:22px;
-    margin-bottom:10px;
-}
-
-.process-item p{
-
-    font-size:15px;
-    line-height:1.6;
-}
-
-.arrow{
-
-    transform:rotate(90deg);
-
-    font-size:34px;
-
-    margin:2px 0;
-}
-
-
             
 .location-info{
 
