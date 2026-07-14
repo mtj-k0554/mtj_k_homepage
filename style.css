@@ -1859,13 +1859,13 @@ background-image:url("images/main3.jpg");
 
     right:12px;
 
-    top:18px;
+    bottom : 12px;
 
     display:flex;
 
     flex-direction:column;
 
-    gap:10px;
+    gap:6px;
 
     z-index:50;
 
@@ -1873,7 +1873,7 @@ background-image:url("images/main3.jpg");
 
 .hero-license{
 
-    width:82px;
+    width:65px;
 
     background:white;
 
