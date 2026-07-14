@@ -2174,22 +2174,7 @@ text-align:center;
 }
 
 
-@media (max-width:768px){
 
-    h1,
-    h2,
-    h3,
-    p,
-    span,
-    li{
-
-        word-break:keep-all;
-
-        overflow-wrap:normal;
-
-    }
-
-}
 /* ===================================
         SMALL MOBILE (~480px)
         (원래 미디어쿼리 없이 전역에 새어나가던 블록을
