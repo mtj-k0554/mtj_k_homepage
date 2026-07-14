@@ -2051,6 +2051,11 @@ font-size:34px;
 
 }
 
+.why-item{
+    border-right:none;
+    border-bottom:1px solid rgba(255,255,255,.15);
+    padding:18px 18px;
+}
 .why-grid{
 
 grid-template-columns:1fr;
@@ -2134,11 +2139,6 @@ section{
     flex-direction:column;
 }
 
-.why-item{
-    border-right:none;
-    border-bottom:1px solid rgba(255,255,255,.15);
-    padding:18px 18px;
-}
 
 /* ================= ABOUT ================= */
 
