@@ -2419,29 +2419,14 @@ grid-template-columns:1fr;
     scroll-margin-top:50px;
 }
 
-/* PC */
-.mobile-br{
-    display:none;
-}
-
-/* 모바일 */
-@media (max-width:768px){
-
-    .mobile-br{
-        display:block;
-    }
-
 }
 
 /* ===================================
         SMALL MOBILE (~480px)
-        (원래 미디어쿼리 없이 전역에 새어나가던 블록을
-         여기 안으로 옮겨서 감쌌습니다)
 =================================== */
 
 @media (max-width:480px){
 
 
 
-}
 }
